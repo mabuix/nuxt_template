@@ -2,7 +2,7 @@
 to: '<%= test ? `src/test/components/${category}/${name}.spec.js` : null %>'
 ---
 import { shallowMount } from '@vue/test-utils'
-import <%= name %> from '~/components/<%= category %>/<%= name %>'
+import <%= name %> from '~/components/<%= category %>/<%= name %>.vue'
 
 describe('<%= name %>', () => {
   let wrapper
