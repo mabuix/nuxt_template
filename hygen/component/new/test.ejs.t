@@ -1,5 +1,5 @@
 ---
-to: '<%= test ? `src/test/components/${category}/${name}.spec.js` : null %>'
+to: '<%= test ? `src/test/components/${category}/${name}.spec.ts` : null %>'
 ---
 import { shallowMount } from '@vue/test-utils'
 import <%= name %> from '~/components/<%= category %>/<%= name %>.vue'
